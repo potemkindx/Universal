@@ -13,3 +13,18 @@ long long LCM(long long a, long long b) {
 	return a / GCD(a, b) * b;
 }
 
+/*
+	Check if the number is prime O(sqrt(N))
+*/
+
+bool isPrime(long long N) {
+	if (N == 2) {
+		return true;
+	}
+	for (int i = 3; i*i <= N; ++i) {
+		if (N % i == 0) {
+			return false;
+		}
+	}
+	return true;
+}

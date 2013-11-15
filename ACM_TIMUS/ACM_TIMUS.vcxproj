@@ -80,6 +80,7 @@
   <ItemGroup>
     <ClCompile Include="Base Algorithms\JustAlgo.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Solutions\1602.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

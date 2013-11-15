@@ -24,5 +24,8 @@
     <ClCompile Include="Base Algorithms\JustAlgo.cpp">
       <Filter>Algorithms</Filter>
     </ClCompile>
+    <ClCompile Include="Solutions\1602.cpp">
+      <Filter>Algorithms</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
