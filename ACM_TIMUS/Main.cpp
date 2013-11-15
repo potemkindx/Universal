@@ -13,7 +13,7 @@
 		scanf("%d %d", &N, &M);
 		--N;
 		--M;
-		puts("HELLO");
+
 		if (N == M){
 			printf("%d", N);
 			return 0;
